@@ -2,7 +2,7 @@
 """LockBoxes"""
 
 def canUnlockAll(boxes):
-    """function for lockboxes"""
+    """function for lockboxes True/False"""
     if not boxes:
         return False
 
