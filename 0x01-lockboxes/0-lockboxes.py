@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""LockBoxes"""
 
 def canUnlockAll(boxes):
+    """function for lockboxes"""
     if not boxes:
         return False
 

@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""
+main-0
+"""
 canUnlockAll = __import__('0-lockboxes').canUnlockAll
 
 boxes = [[1], [2], [3], [4], []]
