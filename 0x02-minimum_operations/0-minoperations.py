@@ -1,4 +1,8 @@
+#!/usr/bin/python3
+"""Dynamics"""
+
 def minOperations(n):
+     """minOperations function"""
     if n <= 1:
         return 0
     
