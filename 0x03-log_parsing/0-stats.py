@@ -2,12 +2,16 @@
 import sys
 from collections import defaultdict
 
+"""Log parsing"""
+
 def print_statistics(total_file_size, status_codes):
+    """ log parsing first function"""
     print("File size:", total_file_size)
     for status_code in sorted(status_codes.keys()):
         print("{}: {}".format(status_code, status_codes[status_code]))
 
 def parse_line(line):
+    """ log parsing second function"""
     parts = line.strip().split()
     if len(parts) != 9:
         return None, None
@@ -19,6 +23,7 @@ def parse_line(line):
     return status_code, int(file_size)
 
 def main():
+    """ log parsing third function"""
     total_file_size = 0
     status_codes = defaultdict(int)
     try:
