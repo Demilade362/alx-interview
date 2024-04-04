@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Main file for testing
+Main file for testing utf8 function
 """
 
 validUTF8 = __import__('0-validate_utf8').validUTF8
