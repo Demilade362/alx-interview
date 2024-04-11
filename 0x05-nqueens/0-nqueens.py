@@ -1,8 +1,9 @@
+#!/usr/bin/python3
 import sys
 
 def is_safe(board, row, col):
   """
-  Checks if placing a queen at (row, col) is safe (no attacks).
+  Checks if placing a queen at (row, col) is safe (no attacks)
   """
   # Check row on left side
   for i in range(col):
